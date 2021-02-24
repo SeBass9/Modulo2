@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box ;
+	}
+h1 {text-align: center;
+color:blue;
+font-family: helvetica , verdana , sans-serif;
+font-weight: bolder;
+ ;}
+
+ h2 { float:right;
+ 	text-align: center;
+ position: relative;
+ left: -21px ;
+ top:-4px;
+background-color:#ffffff;
+border:1px solid black;
+padding:5px;}
+
+
+
+ p {
+ 	border:1px solid black;
+ 	background-color: grey;
+ 	width:90%;
+ 	height: 150px;
+ 	
+ 	padding: 10px;
+ }
+
+ .row { width: 100%;
+ }
+ /*** ESCRITORIO ***/
+ @media (min-width: 992px) {
+ 	.col-lg-4 {
+ 		float:left;
+ 	}
+ 	.col-lg-4{width: 33%;}
+ }
+ /*** TABLET ***/
+ @media (min-width: 768px) and  (max-width: 991px)
+  { #js{
+ 		width: 100%;
+ 	     clear: both;}
+ 	.col-md-6{
+ 		float: left;
+ 	}
+ 	.col-md-6 {width: 50%}
+ 	
+
+ 	}
+ }
